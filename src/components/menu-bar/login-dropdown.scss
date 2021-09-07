@@ -1,0 +1,46 @@
+
+.login {
+    padding: .625rem;
+
+    input{
+        display: block;
+        margin-bottom: 1.25rem;
+        width: 100%;
+        height: 2.25rem;}
+
+
+}
+
+.login_submit-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .submit-button{
+        margin-top: 5px;
+        padding: .5em 1.5em;
+    }
+    a{
+        margin: auto 0;
+    color: #FFF;
+    text-decoration: none;
+    }
+}
+
+
+.imgCode{
+    width: 80px !important;
+    margin-bottom:initial !important;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    img{
+        height: 2rem;
+        width: 80px;
+        margin: 0 10px;
+    }
+}
